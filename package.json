@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
+    "dev:stage": "env-cmd -f .env.stage next dev",
+    "dev:prod": "env-cmd -f .env.production next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
@@ -25,6 +27,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "env-cmd": "^10.1.0",
     "eslint": "^9",
     "eslint-config-next": "15.3.2",
     "husky": "^9.1.7",
