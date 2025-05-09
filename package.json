@@ -13,11 +13,14 @@
     "prepare": "husky"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^2.8.1",
     "@t3-oss/env-nextjs": "^0.13.4",
     "next": "15.3.2",
     "next-intl": "^4.1.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-redux": "^9.2.0",
+    "redux-persist": "^6.0.0",
     "zod": "^3.24.4"
   },
   "devDependencies": {
