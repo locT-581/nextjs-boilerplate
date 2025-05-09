@@ -5,6 +5,9 @@
     "package-lock.json": true
   },
 
+  // Tailwind CSS IntelliSense for VS Code
+  "tailwindCSS.experimental.classRegex": [["className\\s*:\\s*['\"]([^'\"]*)['\"]"]],
+
   // TypeScript
   "typescript.tsdk": "node_modules/typescript/lib", // Use the workspace version of TypeScript
   "typescript.enablePromptUseWorkspaceTsdk": true, // For security reasons it's require that users opt into using the workspace version of typescript
